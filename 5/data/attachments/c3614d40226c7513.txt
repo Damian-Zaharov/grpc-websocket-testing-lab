@@ -1,0 +1,2 @@
+Ticker: XRP/USD
+Price: 23844.84
