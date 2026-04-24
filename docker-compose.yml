@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  # Микросервис
+  ticker-service:
+    build: .
+    ports:
+      - "50051:50051"  # gRPC
+      - "8765:8765"    # WebSocket
+    networks:
+      - ticker-net
+
+  # Контейнер для запуска тестов
+  tests:
+    build: .
+    environment:
+      - PYTHONPATH=/app
+    depends_on:
+      - ticker-service
+    # Запускает генерацию прото и прогон всех тестов с аллюром
+    command: >
+      sh -c "sleep 10 && python -m pytest -v --alluredir=allure-results tests/cases/"
+    volumes:
+      - ./allure-results:/app/allure-results  # Результаты на хост
+    networks:
+      - ticker-net
+
+networks:
+  ticker-net:
+    driver: bridge

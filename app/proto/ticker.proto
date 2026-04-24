@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package ticker;
+
+service TickerService {
+  rpc Subscribe (SubscribeRequest) returns (SubscribeResponse);
+}
+
+message SubscribeRequest {
+  string ticker_symbol = 1;
+}
+
+message SubscribeResponse {
+  bool accepted = 1;
+  string message = 2;
+}
