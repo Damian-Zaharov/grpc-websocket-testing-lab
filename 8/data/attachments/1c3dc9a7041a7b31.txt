@@ -1,0 +1,2 @@
+Ticker: ETH/USD
+Price: 10388.06

@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"a19848b937f2e8ec58ca5fdc0bd8705c","name":"Trading Platform","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}},{"uid":"78c871873110463fa449fd605a3302e0","name":"Ticker Service","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}
