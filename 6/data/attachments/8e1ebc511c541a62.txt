@@ -1,0 +1,1 @@
+ticker='BTC/USD' price=46197.29 status='LIVE'
