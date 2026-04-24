@@ -1,9 +1,9 @@
 # gRPC & WebSocket Testing Lab
 
-![Python](https://shields.io)
-![Pytest](https://shields.io)
-![Docker](https://shields.io)
-![Allure](https://shields.io)
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-framework-green?logo=pytest&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-ready-blue?logo=docker&logoColor=white)
+![Allure](https://img.shields.io/badge/Allure-report-orange?logo=allure&logoColor=white)
 
 ---
 
