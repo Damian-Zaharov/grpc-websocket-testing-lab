@@ -19,4 +19,5 @@ jobs:
 
       - name: Run tests in Docker Compose
         run: |
-          docker-compose up --build --abort-on-container-exit
+          docker compose up --build --abort-on-container-exit   
+
