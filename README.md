@@ -8,6 +8,7 @@
 ---
 
 Проект AQA, демонстрирующий навыки автоматизации тестирования распределенных систем с использованием асинхронных протоколов **gRPC** и **WebSockets**.
+## Allure-отчёт [![Allure Report](https://img.shields.io/badge/Allure-Report-brightgreen)](https://damian-zaharov.github.io/grpc-websocket-testing-lab/8/index.html)
 
 ## Описание решения
 Проект имитирует микросервис «Биржевой монитор» (Ticker Service):
