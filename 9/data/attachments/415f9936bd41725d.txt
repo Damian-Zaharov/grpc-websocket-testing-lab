@@ -1,0 +1,2 @@
+Accepted: True
+Message: Subscribed to BTC/USD. Watch updates on WebSocket.
